@@ -1,1 +1,1 @@
-# -jetpack-compose-assignment-2
+# jetpack-compose-assignment-2
