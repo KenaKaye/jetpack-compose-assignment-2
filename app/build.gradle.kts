@@ -48,14 +48,12 @@ dependencies {
     implementation("androidx.activity:activity-compose:1.9.0")
 
     // Jetpack Compose - Use BOM for consistency
-    implementation(platform("androidx.compose:compose-bom:2024.10.00")) // Updated BOM (latest as of May 2025)
+    implementation(platform("androidx.compose:compose-bom:2024.10.00")) 
     implementation("androidx.compose.ui:ui")
     implementation("androidx.compose.material3:material3")
     implementation("androidx.compose.ui:ui-tooling-preview")
     implementation(libs.androidx.monitor)
     debugImplementation("androidx.compose.ui:ui-tooling")
-    // Removed pinned versions (e.g., 1.8.1) to rely on BOM
-    // Note: If you need ui-text-google-fonts, add it back (see Step 4)
 
     // Lifecycle
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.0")
